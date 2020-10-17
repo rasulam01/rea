@@ -5,6 +5,7 @@ table{
     margin: 0 auto;
     text-align: justify;
     font-family: 'Permanent Marker', sans-serif;
+    font-weight: 900;
 
     
 }
@@ -14,6 +15,7 @@ th, td{
     text-align: center;
 }
 caption{
+    
     border: 2px dashed violet;
 }
 
