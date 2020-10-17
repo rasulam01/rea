@@ -1,0 +1,57 @@
+table{
+    border-collapse: collapse;
+    
+    border: 2.5px solid cornflowerblue;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Permanent Marker', sans-serif;
+
+    
+}
+
+th, td{
+    padding: 2px 4px 8px 16px;
+    text-align: center;
+}
+caption{
+    border: 2px dashed violet;
+}
+
+.nothing{
+    border: 2px dashed aqua;
+
+
+}
+
+.anything{
+    border: 2px dashed wheat;
+}
+
+.none{
+    border: 2px dashed silver;
+}
+
+.everything{
+    border: 2px dashed fuchsia;
+}
+
+tr:first-child{
+    background: hsl(75, 35%, 20%);
+}
+
+tr:last-child{
+    background: hsl(300, 20%, 35%);
+
+}
+tr:nth-child(2){
+    background: hsl(235, 45%, 10%);
+}
+
+tr:nth-child(3){
+    background: hsl(190, 40%, 45%);
+
+}
+
+tr:nth-child(4){
+    background: hsl(275, 20%, 50%);
+}
