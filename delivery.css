@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shell{
+    width: 1366px;
+}
+
+.header{
+    height: 124px;
+}
+
+body{
+    background: #f5f5f5;
+}
+a{
+    text-decoration: none;
+}
+
+.del{
+    position: relative;
+    width: 180px;
+    height: 55px;
+    margin-top: 36px;
+    margin-left: 90px;
+    
+}
+
+#seek{
+    width: 690px;
+    height: 32px;
+    position: absolute;
+    top: 50px;
+    margin-left: 24px;
+    outline: none;
+}
+::placeholder{
+    position: absolute;
+    font-family: roboto;
+    font-size: 16px;
+    text-align: right;
+    
+}
+
+.fa-home{
+    position: absolute;
+    top: 48px;
+    margin-left: 32px;
+    color: gray;
+}
+
+#seek:focus ~ .fa-home, ::placeholder{
+    display: none;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 100px;
+    top: 45px;
+    font-family: roboto;
+    line-height: 40px;
+    border-radius: 3px;
+    border: .5px solid lightgray;
+    font-weight: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+i{
+    margin-top: 10px;
+    margin-right: 8px;
+}
+#btn1{
+    right: 225px;
+    width: 96px;
+    height: 40px;
+    line-height: 40px;
+    justify-content: center;
+    background: #1890FF;
+    color: white;
+}
+#btn2{
+    width: 113px;
+    height: 40px;
+    justify-content: center;
+    background: whitesmoke;
+    color: gray;
+}
+
+.fa-home{
+    position: absolute;
+    top: 48px;
+    margin-left: 32px;
+    color: gray;
+}
+
+/* main part */
+
+.description{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 442.19px;
+    height: 42px;
+    left: 121.9px;
+    top: 124.19px;
+    font-family: roboto;
+    color: black;
+    
+}
+.restaurant{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    
+}
+.star{
+    font-size: 18px;
+    line-height: 44px;
+    color: #FFC107;
+    font-weight: 700;
+    margin-left: 24px;
+}
+.rating{
+    margin-left: 8px;
+}
+.price_category{
+    margin-left: 12px;
+    font-size: 18px;
+    line-height: 44px;
+    color: #8C8C8C;
+}
+.card{
+    position: absolute;
+    width: 384px;
+    height: 415.96px;
+    left: 121.76px;
+    top: 210.2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    font-family: roboto;
+    
+}
+.rolls{    
+    width: 225px;
+    height: 225px;
+    left: 121.76px;
+    top: 210.2px;
+    margin-left: 32px;
+    background-size: cover;
+    
+}
+.roll_name{
+    position: absolute;
+    top: 263px;
+    left: 36px;
+    font-size: 24px;
+    line-height: 32px;
+}
+.roll_ingredients{
+    position: absolute;
+    top: 303px;
+    left: 36px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8C8C8C;
+}
+.card .btn{
+    width: 120px;
+    top: 362px;
+    left: 32px;
+    background: #1890FF;
+    color: #ffffff;
+
+}
+
+.card i{
+    position: absolute;
+    right: 5px;
+}
+
+.card span{
+    margin-left: 10px;
+
+}
+.price{
+    position: absolute;
+    top: 374px;
+    left: 184px;
+    font-weight: 700;
+    font-size: 20px;
+   
+}
+
+
