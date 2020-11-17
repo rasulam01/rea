@@ -97,7 +97,11 @@ i{
 }
 
 /* main part */
-
+.main_shell{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
 .description{
     display: flex;
     flex-direction: row;
@@ -143,6 +147,23 @@ i{
     background: white;
     font-family: roboto;
     
+}
+.card2{
+    left: 515.76px;
+}
+.card3 {
+    left: 908.76px;
+}
+.card4 {
+    top: 656.16px;
+}
+.card5 {
+    left: 515.06px;
+    top: 656.79px;
+}
+.card6 {
+    left: 908.76px;
+    top: 656.79px;
 }
 .rolls{    
     width: 225px;
@@ -193,6 +214,58 @@ i{
     font-weight: 700;
     font-size: 20px;
    
+}
+.footer{
+    position: relative;
+    top: 1200px;
+    width: 100%;
+    height: 138px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+}
+.footer img{
+    position: absolute;
+}
+.footer_links{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 300px;      
+}
+.footer_link{
+    margin-top: 50px;
+    margin-left: 15px;
+    text-decoration: none;
+    outline: none;
+    font-family: roboto;
+    font-size: 18px;
+}
+.footer_link a{
+    color: #8C8C8C;
+}
+.social_links{
+    position: absolute;
+    display: flex;
+    right: 54px;
+    top: 35%;
+    justify-content: space-between;   
+    align-items: flex-end;
+    flex-direction: row;
+    font-size: 30px;
+}
+.fa-instagram{
+    background: linear-gradient(to right, #FFC107, #9E28AD);
+    color: linear-gradient(to right, orange, purple);
+    
+}
+.fa-facebook{
+    background: #1890FF;
+    color: #1890FF;
+}
+.fa-vk{
+    background: #1890FF;
 }
 
 
