@@ -1,0 +1,46 @@
+.shell{
+    height: 600px;
+    width: 420px;
+    background: hsla(300, 30%, 55%, 0.4);
+
+}
+.resume{
+    height: 480px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 2px solid rgb(30, 150, 240);
+    grid-template-areas:
+        "Name photo"
+        "Photo about"
+        "About work"
+        "Work education"
+        "Education community"
+        "Community skills";
+    
+
+}
+
+/* .name{
+    grid-area: name;
+}
+.photo{
+    grid-area: photo;
+}
+.about{
+    grid-area: about;
+}
+.work{
+    grid-area: work;
+}
+.education{
+    grid-area: education;
+}
+.community{
+    grid-area: community;
+}
+.skills{
+    grid-area: skills;
+} */
+

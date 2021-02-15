@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Experimental Live Validation</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="live_validation.css">
+    </head>
+    <body>
+        <header id="header">
+            <nav id="navigator">
+                <span>Test Project</span>
+                <ul id="nav_menu">
+                    <li>Goals</li>
+                    <li>Missions</li>
+                    <li>Inspiration</li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <div id="shell">
+                <div id="logshell">
+                    <form action="" class="form">
+                        <h2 h2 class="form_title">This is your log-in space</h2>
+                        <div class="form_group">
+                            <input class="form_input input" placeholder=" Enter your username">
+                            <label class="form_label label">Username</label>
+                            <span class="username">Your username must contain at least 3 characters</span>
+                            <span class="numbers">Numeric characters are up to your liking</span>
+                            
+                            
+                        </div>
+                        <div class="form_group2">
+                            <input class="form_input2 input" type="password" placeholder=" Enter your password">
+                            <label class="form_label2 label">Password</label>
+                            <span class="eight">Contains at least 8 characters</span>
+                            <span class="digit">Contains at least 1 digit</span>
+                            <span class="uppercase">Contains at least 1 uppercase letter</span>
+                            <span class="lowercase">Contains at least 1 lowercase letter</span>
+                            <span class="alphanumeric">Contains a non-alphanumeric character</span>
+                        </div>
+                        <button id="log_in">Log In</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <div id="warning_sign">
+                Creator's rights fully preserved!
+            </div>
+        </footer>
+        <script src="live_validation.js"></script>
+    </body>
+</html>

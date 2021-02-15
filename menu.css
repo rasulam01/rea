@@ -1,0 +1,142 @@
+ul{
+	margin-left: 24px;
+	padding: 0;
+}
+
+ul li{
+	display: inline-block;
+	background: rgb(110, 140, 170);
+	border: 1px solid green;
+	padding: 16px;
+
+}
+
+ol{
+	
+	margin-left: 24px;
+	padding: 0;
+}
+
+ol li{
+	display: inline-block;
+	border: 2px solid purple;
+	background: rgb(170, 140, 110);
+	padding: 20px;
+}
+
+ol li:hover{
+	background: rgb(200, 200, 200);
+	font-family: Courier New;
+	font-weight: 100;
+}
+
+ul li:hover{
+	border: 10px double red;
+	font-family: Trebuchet MS;
+	font-weight: 100;
+}
+
+ol > ol li{
+	padding: 40px;
+	display: inline-block;
+	border: 2px solid black;
+	background: lime;
+}
+
+
+.blast{
+	position: relative;
+
+}
+
+
+ul.children{
+	
+    display: none;
+	width: auto;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+	
+	left: 0;
+	top: 100%;
+
+}
+
+.blast:hover > ul.children{
+	display: block;
+
+}
+
+input:checked + div p{
+	margin-left: 36px;
+	color: cyan;
+	font-weight: 700;
+	display: block;
+	background: rgb(66,132,198);
+	animation-name: neonglow;
+	animation-duration: 2.5s;
+	animation-delay: .5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+
+}
+
+input{
+	width:25px;
+	height: 35px;
+	display: block;
+}
+
+.answer{
+	display: none;
+}
+
+@keyframes neonglow{
+	0% {background: rgb(10, 20, 30); color: cyan;}
+	33% {background: rgb(40, 50, 60); color: lightcyan;}
+	66% {background: rgb(70, 80, 90); color: navy;}
+	100% {background: rgb(100, 110, 120); color: darkblue;}
+}
+
+div:hover #face h2{
+	font-weight: 300;
+	font-family: Arial Narrow;
+	background: hsl(150, 40%, 25%);
+	color: rgb(168, 24, 192);
+}
+
+@keyframes claustrophobic{
+	0% {background: white; width: 100%; color: black;}
+	20% {background: gray; width: 80%; color: gray;}
+	40% {background: brown; width: 60%; color: brown;}
+	60% {background: orchid; width: 40%; color: orchid;}
+	80% {background: cyan; width: 25%; color: cyan;}
+	100% {background: black; width: 10%; color: white;}
+	
+}
+
+#falcon:checked + .answer{
+	display: block;
+	animation-name: neonglow;
+}
+
+#hawk:checked + .answer{
+	animation-name: claustrophobic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

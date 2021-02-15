@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="calculator.css">
+
+    </head>
+    <body>
+        <div id="calculator">
+           <div id="calculator_display">
+               <textarea rows="4" cols="35" autofocus></textarea>
+           </div> 
+           <div id="calculator_keys">
+               <button class="key_number">7</button>
+               <button class="key_number">8</button>
+               <button class="key_number">9</button>
+               <button class="key_operator" data-action="add">+</button>
+               <button class="key_number">4</button>
+               <button class="key_number">5</button>
+               <button class="key_number">6</button>
+               <button class="key_operator" data-action="subtract">-</button>
+               <button class="key_number">1</button>
+               <button class="key_number">2</button>
+               <button class="key_number">3</button>
+               <button class="key_operator" data-action="multiply">*</button>
+               <button id="key_clear" data-action="clear">C</button> 
+               <button class="key_number">0</button>
+               <button id="key_equal" data-action="calculate">=</button>
+               <button class="key_operator" data-action="divide">/</button>      
+           </div>
+        </div>
+
+    <script src="calculator.js">
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    position: relative;
+    height: 96px;
+    background-color: rgb(30, 0, 60);
+}
+
+nav a{
+    position: absolute;
+    top: 0;
+    left: 50%;   
+}
+#heart{
+    position: relative;
+    height: 500px;
+    
+}
+#clock{
+    position: absolute;
+    height: 500px;
+    width: 40%;
+    
+}
+#clock img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 500px;
+    width: 500px;
+}
+#description{
+    position: absolute;
+    height: 500px;
+    width: 60%;
+    left: 40%;
+    
+}
+#description h2{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    font-family: 'Montserrat';
+    letter-spacing: .5px;
+    font-size: 28px;
+}
+#corporate_speech{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-family: 'Montserrat';
+    font-weight: thin;
+}
+#color_selection{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    line-height: 42px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    letter-spacing: .5px;
+}
+#colors button{
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+#colors .black{
+    background-color: #23211f;
+}
+#colors .red{
+    background-color: #ca3d22;
+}
+#colors .lily{
+    background-color: #565681;    
+}
+#colors .purple{
+    background-color: #8a5362;   
+}
+#features{
+    position: absolute;
+    left: 15%;
+    top: 55%;
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    letter-spacing: .25px;
+    line-height: 42px;
+}
+
+#features_buttons .time{
+    width: 65px;
+    height: 40px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+#features_buttons .heart_rate{
+    height: 40px;
+    width: 136px;
+    border: none;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    background-color: lightgray;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+#buy_it .buy_it{
+    margin-top: 22px;
+    height: 56px;
+    width: 212px;
+    border: none;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    background-color: darkorange;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+#footer{
+    position: relative;
+    height: 48px;
+    border: 1px solid black;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    background-color: rgb(30, 0, 60);
+}
+#last_word{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-family: 'Source Sans Pro';
+    color: whitesmoke;
+}
+.time_square{
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    color: whitesmoke;
+    font-family: 'Source Sans Pro';
+    z-index: 2;
+}
+.heart_square{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    color: whitesmoke;
+    font-family: 'Source Sans Pro';
+    z-index: 2; 
+    width: 60px;
+    height: 60px;
+}
+
+.hidden{
+    display: none;
+}
+
+.heartrate{
+    background-image: url('Images/heart.png');
+    background-size: cover;
+    
+}
+
+.bpm h2{
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    color: whitesmoke;
+    z-index: 2;
+    font-family: 'Source Sans Pro';
+    font-size: 48px;
+}
+
+.heart_square h2{
+    top: 50px;
+}
+
+@keyframes heartbeat {
+    0% {width: 60px; height: 60px;}
+    50% {width: 65px; height: 65px;}
+    100% {width: 60px; height: 60px;}
+}

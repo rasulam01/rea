@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather';
+    color: whitesmoke;
+}
+
+#navigator span{
+    position: absolute;
+    font-size: 28px;
+    font-weight: 900;
+    top: 35%;
+    left: 15%;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#navigator span:hover{
+    color: lightgreen;
+}
+
+#header{
+    position: relative;
+    width: 100%;
+    height: 96px;
+    background-color: rgb(30, 5, 34);
+}
+
+#nav_menu{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    font-weight: 700;
+    height: 44px;
+    width: 40%;
+    right: 15%;
+    top: 35%;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#nav_menu li:hover{
+    color:lightgreen;
+    transition: .4s;
+}
+
+#shell{
+    position: relative;
+    height: 540px;
+    background-color: rgb(40, 5, 45);
+}
+
+#logshell{
+    position: absolute;
+    background-color: rgb(30, 5, 34);
+    top: 5%;
+    left: 35%;
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.form_title{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.form_group{
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.form_group span{
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    font-size: 14px;
+}
+
+.form_group .numbers{
+    top: 170px;
+}
+
+.form_group2{
+    position: relative;
+    margin-bottom: 32px;    
+}
+
+.form_group2 span{
+    position: absolute;
+    left: 10%;
+    font-size: 14px;
+}
+
+.form_group2 .eight{
+    top: 290px;
+}
+.form_group2 .digit{
+    top: 310px;
+}
+.form_group2 .uppercase{
+    top: 330px;
+}
+.form_group2 .lowercase{
+    top: 350px;
+}
+.form_group2 .alphanumeric{
+    top: 370px;
+}
+
+
+.form_input{
+    position: absolute;
+    border-radius: 10px;
+    top: 96px;
+    left: 10%;
+    width: 75%;
+    height: 40px;    
+    color:rgb(40, 5, 45);
+    outline: none;
+    transition: .1s;
+}
+
+
+
+.form_input2{
+    position: absolute;
+    border-radius: 10px;
+    top: 236px;
+    left: 10%;
+    width: 75%;
+    height: 40px;  
+    color:rgb(40, 5, 45);
+    outline: none;
+    transition: .1s;
+}
+
+.input:focus{
+    box-shadow: 0 0 12px navy;
+    border: none;
+    border-bottom: .5px solid rgb(30, 5, 34);
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.input:focus ~ .label{
+    color: lightgreen;
+    transition: .1s;
+    font-size: 14px;
+    letter-spacing: .25px;
+}
+
+.form_label{
+    position: absolute;
+    left: 10%;
+    top: 72px;  
+}
+
+.form_label2{
+    position: absolute;
+    left: 10%;
+    top: 210px;
+}
+
+#log_in{
+    position: absolute;
+    bottom: 18px;
+    left: 25%;
+    padding: 12px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: royalblue;
+    color: rgb(30, 5, 34);
+    cursor: pointer;
+    transition: .6s;  
+    outline: none;
+    animation-duration: .5s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-name: 'heartbeat'; 
+}
+
+#log_in:hover{
+    background-color: rgb(47, 5, 52);
+    box-shadow: 0 0 12px navy; 
+    color: royalblue;
+    border-radius: 15px;
+}
+
+#footer{
+    position: relative;
+    background-color: rgb(30, 5, 34);
+    height: 64px;
+}
+
+#warning_sign{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+}
+
+
+@keyframes heartbeat {
+    0% {box-shadow: 0 0 0};
+    4% {box-shadow: 0 0 .96px green};
+    8% {box-shadow: 0 0 1.92px green};
+    12% {box-shadow: 0 0 2.88px green};
+    16% {box-shadow: 0 0 3.84px green};
+    20% {box-shadow: 0 0 4.8px green};
+    24% {box-shadow: 0 0 5.76px green};
+    28% {box-shadow: 0 0 6.72px green};
+    32% {box-shadow: 0 0 7.68px green};
+    36% {box-shadow: 0 0 8.64px green};
+    40% {box-shadow: 0 0 9.6px green};
+    44% {box-shadow: 0 0 10.56px green};
+    48% {box-shadow: 0 0 11.52px green};
+    52% {box-shadow: 0 0 12px green};
+    56% {box-shadow: 0 0 11.52px green};
+    60% {box-shadow: 0 0 10.56px green};
+    64% {box-shadow: 0 0 9.6px green};
+    68% {box-shadow: 0 0 8.64px green};
+    72% {box-shadow: 0 0 7.68px green};
+    76% {box-shadow: 0 0 6.72px green};
+    80% {box-shadow: 0 0 5.76px green};
+    84% {box-shadow: 0 0 4.8px green};
+    88% {box-shadow: 0 0 3.84px green};
+    92% {box-shadow: 0 0 2.88px green};
+    96% {box-shadow: 0 0 1.92px green};
+    100% {box-shadow: 0 0 .96px green};
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

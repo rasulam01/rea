@@ -1,0 +1,16 @@
+p{
+    color: whitesmoke;
+    background: hsl(222, 22%, 22%);
+    border: .4px double rgba(11, 111, 222, .45);
+}
+
+.darktheme{
+    background: rgb(40, 40, 40);
+    color: whitesmoke;
+}
+
+
+.call{
+    border: .25px solid rgb(0, 22, 55)
+}
+

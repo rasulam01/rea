@@ -1,0 +1,106 @@
+* {
+    font-family: Courier New;
+    font-weight: 200;
+}
+
+body{
+    background: lightsteelblue;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    background: whitesmoke;
+}
+
+header {
+    height: 800px;
+    background-image: url(Images/mountain.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+p {
+    margin-left: 36px;
+    color: darkcyan;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_img{
+    background: url(Images/ceb.jpeg);
+    background-size: cover;
+    width: 50%;
+    
+   
+}
+
+.headline{
+    color: red;
+    margin: 0 auto;
+}
+
+section{
+    margin: 70px 0 0 0;
+
+}
+
+.team_text{
+    margin: 0 0 0 20px;
+}
+.gallery_row img{
+    width: 20%;
+}
+
+
+
+.gallery_row img:not(:last-child) {
+    margin-right: 10px;
+}
+
+.btn{
+    background: darkorchid;
+    padding: 12px 24px;
+    color: whitesmoke;
+    border: none;
+    font-size: 10px;
+    margin-left: 42px;
+    box-shadow: 2.5px 3px black;
+}
+
+
+
+.btn:hover{
+    color: gold;
+}
+
+.gallery_row2 img{
+    width: 30%;
+}
+
+.gallery_row3 img{
+    width: 24%;
+    justify-content: space-between;
+}
+
+footer{
+    min-height: 64px;
+    background: wheat;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+

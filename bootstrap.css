@@ -1,0 +1,17 @@
+.row div {
+    background: hsl(160, 36%, 54%);
+    color: rgb(255, 130, 65);
+    border: 1px solid hsla(300, 24%, 32%, 0.3);
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.row{
+    height: 240px;
+
+}
+.btn{
+    float: right;
+    display: flex;
+    
+}

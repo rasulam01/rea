@@ -1,0 +1,14 @@
+.darkrealm {
+    transition: 4s;
+    background: radial-gradient(circle, lime,darkred, darkgray, brown);
+}
+
+.urdak {
+    transition: 4s;
+    background: radial-gradient(circle, hsl(300, 75%, 60%), hsl(255, 60%, 80%), hsl(200, 65%, 70%), hsl(225, 20%, 35%), hsl(200, 65%, 70%), transparent)
+}
+
+.nekravol {
+    transition: 7.5s;
+    background: radial-gradient(circle, black,lightgray, red, darkorange, lightyellow);
+}

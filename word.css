@@ -1,0 +1,36 @@
+ul{
+    /* background: darkkhaki;
+    border: 4.5px double hsl(100, 20%, 36%); */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px;
+    
+    
+}
+
+.ew{
+    width: 500px;
+    margin: 0 auto;
+    background: turquoise;
+    color: gold;
+    border: 2.5px dashed magenta;
+    
+    
+}
+
+li{
+    padding: 5px;
+    transition: 500ms;
+}
+
+li:hover {
+    padding: 15px;
+    background: purple;
+    color: black;
+    font-family: 'Faster One';
+    letter-spacing: 2px;
+
+
+}
